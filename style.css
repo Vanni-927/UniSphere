@@ -15,7 +15,7 @@ a:hover{
 
 
 #index{
-    background-image: url(/HTML/002/images/wave-haikei\ \(1\).svg);
+    background-image: url(/images/wave-haikei\ \(1\).svg);
     background-size: cover;
     margin: 0;
     font-family: Arial;
@@ -38,7 +38,7 @@ a:hover{
 
     
 .logo{
-    background-image: url(/HTML/002/images/logoipsum-338.svg);
+    background-image: url(/images/logoipsum-338.svg);
     height: 50px;
     width: 100%;
     background-size: cover;
