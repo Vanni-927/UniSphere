@@ -238,6 +238,10 @@ span{
     align-items: center;
     font-size: 0.85rem;
 }
+
+.f1 a{
+    color: #fff6da;
+}
 .fp{
     background-color: transparent;
     color: #0f1111;
