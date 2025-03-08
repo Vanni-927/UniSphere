@@ -15,6 +15,7 @@ a:hover{
 
 
 #index{
+
     background-image: url(../UniSphere/images/wave.svg);
     background-size: cover;
     margin: 0;
@@ -147,9 +148,18 @@ span{
     color: #32A287;
 }
 .panel-ops a{
+    color: black;
     display: inline;
     margin-left: 15px;
-    font-size: .85rem;
+    font-size: 1.12rem;
+
+}
+
+
+
+.panel-ops a:hover{
+    color: white;
+
 }
 .panel-ops{
     width: 70%;
@@ -166,7 +176,6 @@ span{
 
 
 
-
 .hsec{
     
 
@@ -175,6 +184,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    opacity: 0;
 }
 
 
@@ -260,9 +270,10 @@ span{
 
 .intern{
     font-size: 20px;
-    margin-top: 90px;
-    font-family: 'sans-serif';
-    font-weight: 700;   
+    margin-top: 10px;
+    font-family: DM Serif Text;
+    color: #a94a4a;
+    font-size: 50px;   
 }
 
 .s{
@@ -273,7 +284,91 @@ span{
 }
 .m{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 400px;
+    justify-content: space-between ;
+    gap: 2px;
+    align-items: top;
+    margin-top: 40px;
+    flex-wrap: nowrap;
+
+
 }
+ .m p{
+    width: 400px;
+    font-size: 30px ;
+    color: black    ;
+    animation: fade-isn linear;
+    animation-timeline: view();
+ }
+
+
+@keyframes fade-in{
+    from{scale: 1; opacity: 1;}
+    to{scale: .9 ; opacity: 0;}
+}
+
+
+/* qna.html */
+
+
+.hed{
+    height: 100px;
+    width: 100px;
+
+}
+
+.mn{
+    font-family: Emilys Candy;
+    font-size: 100px;
+}
+
+.qb{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.q{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ques{
+    font-family: Parisienne;
+    font-size: 80px;
+}
+
+.ans{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: top;    
+}
+
+.AN{
+    font-family: Parisienne;
+    font-size: 28px;
+}
+.ob{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.ob:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(8, 143, 55, 0.5);
+    backface-visibility: hidden;
+    transform: translateZ(0);   
+
+}
+
+
