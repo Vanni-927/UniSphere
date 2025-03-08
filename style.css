@@ -15,7 +15,7 @@ a:hover{
 
 
 #index{
-    background-image: url(Uni\UniSphere\images\wave.svg);
+    background-image: url(../UniSphere/images/wave.svg);
     background-size: cover;
     margin: 0;
     font-family: Arial;
@@ -38,7 +38,7 @@ a:hover{
 
     
 .logo{
-    background-image: url(/images/logoipsum-338.svg);
+    background-image: url(../UniSphere/images/logoipsum-338.svg);
     height: 50px;
     width: 100%;
     background-size: cover;
