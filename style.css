@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #32A287;
+}
+
+a:hover{
+    color: #fff6da;
+}
+
+
+#index{
+    background-image: url(/HTML/002/images/wave-haikei\ \(1\).svg);
+    background-size: cover;
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.nav{
+    height: 60px;
+    background-color: #a94a4a;
+    color: #fff6da;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-l{
+    height: 50px;
+    width: 110px;
+}
+
+
+    
+.logo{
+    background-image: url(/HTML/002/images/logoipsum-338.svg);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+/*box */
+.adic{
+    display: flex;
+    align-items: center;
+}
+.adf{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+.ads{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+
+.nav-s{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.nav-s:hover{
+    border: 2px solid #a94a4a;
+}
+
+.srch-sel{
+    background-color: #fff6da;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.srch-inp{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.srchic{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #fff6da;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: #0f1111;
+}
+
+/* box4*/
+
+span{
+    font-size: 0.7rem;
+}
+
+.ns{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cart i{
+    font-size: 30px;
+    font-weight: 70;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #7e3636;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+.panel-all{
+    cursor: pointer;
+    color: #32A287;
+}
+.panel-ops a{
+    display: inline;
+    margin-left: 15px;
+    font-size: .85rem;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.panel-id{
+    font-size: 0.99rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #32A287;
+}
+
+
+
+
+.hsec{
+    
+
+    height: 600px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.hmes{
+    background-color: transparent;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+.rb{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.f1{
+    background-color: orangered;
+    color: #fff6da;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.fp{
+    background-color: transparent;
+    color: #0f1111;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+
+}
+.fp ul a{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
