@@ -278,14 +278,14 @@ span{
 
 .s{
 
-   max-height: 900px;
-   max-width: 900px;
-
+   height: 600px;
+   width: 800px;
+    
 }
 .m{
     display: flex;
-    justify-content: space-between ;
-    gap: 2px;
+    justify-content: left ;
+    gap: 200px;
     align-items: top;
     margin-top: 40px;
     flex-wrap: nowrap;
@@ -294,12 +294,11 @@ span{
 }
  .m p{
     width: 400px;
-    font-size: 30px ;
-    color: black    ;
-
+    font-size: 50px ;
+    color: black  ;
+    font-family: Shadows Into Light;
+    margin-top: 60px    ;
  }
-
-
 
 
 
