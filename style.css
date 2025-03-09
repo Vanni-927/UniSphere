@@ -296,15 +296,11 @@ span{
     width: 400px;
     font-size: 30px ;
     color: black    ;
-    animation: fade-isn linear;
-    animation-timeline: view();
+
  }
 
 
-@keyframes fade-in{
-    from{scale: 1; opacity: 1;}
-    to{scale: .9 ; opacity: 0;}
-}
+
 
 
 /* qna.html */
@@ -356,6 +352,8 @@ span{
     font-size: 28px;
 }
 .ob{
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
