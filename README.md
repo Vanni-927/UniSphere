@@ -1,1 +1,1 @@
-# UniSphere
+UniSphere is a centralized digital hub crafted for college students developed during Electrothon to enhance student engagement and campus connectivity. It offers an intuitive interface to access campus events, opportunities, official notices, discussion forums, and a lost & found board — all in one place. The platform also features a smart chatbot and a planned digital ID system, aiming to streamline student engagement and simplify everyday campus life. Currently, the project showcases a fully responsive frontend, with backend functionalities planned ahead.
